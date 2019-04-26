@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="websocket_client.js"></script>
+
+</head>
+<body onload="javascript:WebSocketSupport()">
+<div id="ws_support"></div>
+
+<form enctype="multipart/form-data" method="post">
+    <textarea >Status Code</textarea>
+    <textarea id="file">File name</textarea>
+        <input type="submit" value="Show" onclick="doSend(document.getElementById('file').value)" /></p>
+</form>
+
+</body>
+</html>
